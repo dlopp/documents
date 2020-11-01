@@ -8,7 +8,8 @@
 ## 開発
 開発には、[Node.js](https://nodejs.org)が必要です。今年中にぃDockerを導入します。
 
-### npmを確認
+### 下準備
+#### npmを確認
 ```bash
 # node.jsのバージョンを確認
 node -v
@@ -16,17 +17,20 @@ node -v
 npm -v
 ```
 
-### yarnをインストール（[yarn公式サイト](https://classic.yarnpkg.com/ja/docs/install#windows-stable)からでも良いです。その場合は、一行目を飛ばしてください。）
+#### yarnをインストール（[yarn公式サイト](https://classic.yarnpkg.com/ja/docs/install#windows-stable)からでも良いです。その場合は、一行目を飛ばしてください。）
 ```bash
 # npm 経由でyarnをインストール
 npm install -g yarn
 # yarnのバージョンを確認
 yarn -v
 ```
-
-### packageのインストールとあれ
+### こっから作業ディレクトリで
+#### packageのインストールとあれ
 ```bash
-yarn && yarn dev
+# packageのインストール
+yarn
+# 開始の合図
+yarn dev
 ```
 
 http://localhost:8080/
