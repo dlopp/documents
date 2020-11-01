@@ -41,11 +41,22 @@ LT会とは1人3〜10分の短い時間でプレゼンしていくというも�
 ## メンバー募集
 webやプログラミングに興味がある人。開発するのが好きな人。
 
-[twitter](https://twitter.com/wucrea_dlopp)又は[HP](https://dlopp.github.io)からメッセージお待ちしてます。
+[公式twitter](https://twitter.com/wucrea_dlopp)又は[HP](https://dlopp.github.io)からメッセージお待ちしてます。
 
 ## よくある質問
 (´･_･`)
 
 ## 運営メンバー
-Daiki、tobu、ゆうと、yt、ひび、Matsuda、ふじを <br>
+twitterリンクをつけてます。
+
+[Daiki](https://twitter.com/Daaiki2323),
+[tobu](https://twitter.com/tobu0510),
+[結人](https://twitter.com/yuto_wu), 
+[yt](https://twitter.com/y11110246),
+ひび,
+[Matsuda](https://twitter.com/radio69chief),
+[ふじを](https://twitter.com/ffjlabo)
+
+<br>
+
 運営メンバーも募集してます。アクティブな方是非。
