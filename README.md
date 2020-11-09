@@ -6,7 +6,9 @@
 - PR歓迎
 
 ## 開発
-開発には、[Node.js](https://nodejs.org)が必要です。今年中にぃDockerを導入します。
+開発には、[Node.js](https://nodejs.org)が必要です。URLからインストールしてください
+
+<br>
 
 ### 下準備
 #### npmを確認
@@ -24,8 +26,14 @@ npm install -g yarn
 # yarnのバージョンを確認
 yarn -v
 ```
-### こっから作業ディレクトリで
-#### packageのインストールとあれ
+
+### もともとNode.js + yarnをインストールしている人はここから
+#### ローカルにコピーする
+```bash
+# 作業ディレクトリに移動した後
+git clone https://github.com/dlopp/documents.git
+```
+#### packageのインストール
 ```bash
 # packageのインストール
 yarn
