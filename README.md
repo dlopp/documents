@@ -2,15 +2,20 @@
 
 - 勉強会の資料作ったり、何か変わったことがあれば追記したりする用
 - GitHubに慣れる意味もかねて、意見や要望はissueでも対応します。
-- まだ発展途上です。
-- PR歓迎
+- プルリク歓迎
 
 ## 開発
-開発には、[Node.js](https://nodejs.org)が必要です。URLからインストールしてください
+
+### 流れ
+1. Node.js + yarn のインストール
+2. ローカルにクローンしてpackageをインストールする
+3. 開発開始
 
 <br>
 
-### 下準備
+### 1. Node.js + yarn のインストール
+#### Node.jsのインストール
+こちらから→https://nodejs.org インストールしてください。
 #### npmを確認
 ```bash
 # node.jsのバージョンを確認
@@ -27,7 +32,9 @@ npm install -g yarn
 yarn -v
 ```
 
-### もともとNode.js + yarnをインストールしている人はここから
+<br>
+
+### 2. ローカルにクローンしてpackageをインストールする
 #### ローカルにコピーする
 ```bash
 # 作業ディレクトリに移動した後
@@ -35,17 +42,21 @@ git clone https://github.com/dlopp/documents.git
 ```
 #### packageのインストール
 ```bash
-# packageのインストール
+# package.json 内の全ての依存関係を node_modules 内にインストール
 yarn
-# 開始の合図
-yarn dev
 ```
 
-http://localhost:8080/
-にアクセスすると開発を開始できます。
+<br>
 
+### 3. 開発開始
+```bash
+yarn dev
+```
+http://localhost:8080/
+にアクセスすると、ローカルでプレビューしながら開発できます。
+setting系をいじった時などは
 ```bash
 # ctrl + c してから
 yarn dev
 ```
-でリロードできます。
+でリロードしてください。
