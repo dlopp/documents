@@ -42,6 +42,8 @@ git clone https://github.com/dlopp/documents.git
 ```
 #### packageのインストール
 ```bash
+# documentsディレクトリに移動
+cd documents
 # package.json 内の全ての依存関係を node_modules 内にインストール
 yarn
 ```
