@@ -2,6 +2,9 @@ module.exports = {
   title: '✈︎ dlopp.',
   domain: 'https://dlopp-docs.netlify.app',
   themeConfig: {
+    locales: {
+      '/': {lang: 'ja'}
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
