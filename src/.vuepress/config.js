@@ -16,6 +16,7 @@ module.exports = {
         ]
       }
     ],
+    sidebar: 'auto',
   },
   plugins: {
     '@vuepress/blog': {},
