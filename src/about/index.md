@@ -1,6 +1,7 @@
 ---
 title: dloppについて
 description: 'dloppとは、和歌山大学協働教育センター(クリエ)で立ち上げられたweb開発プロジェクトです'
+sidebar: false
 meta:
   - name: twitter:card
     content: summary
