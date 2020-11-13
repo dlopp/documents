@@ -76,8 +76,7 @@ documentsリポジトリにおける細かいルールは、[トップページ]
 ```
 #### Node.jsのインストール(任意)
 - 手元の端末で動作確認までやりたい人は [https://nodejs.org]() からNode.jsをインストールしましょう。
-- 動作確認方法はREADMEを参照すること 
-  - [https://github.com/dlopp/documents#readmeq]()
+- 動作確認方法は[README](https://github.com/dlopp/documents#readmeq)を参照すること
 
 ### 2. プルリクエスト作成用ブランチをローカルで作成
 1. cloneしたdocumentsディレクトリに移動する  `cd documents`
