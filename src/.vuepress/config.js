@@ -1,6 +1,7 @@
 module.exports = {
   title: '✈︎ dlopp.',
   domain: 'https://dlopp-docs.netlify.app',
+  description: 'web開発プロジェクトdloppの資料置き場兼ブログです。',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
