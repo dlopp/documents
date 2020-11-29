@@ -2,6 +2,8 @@ module.exports = {
   title: '✈︎ dlopp.',
   domain: 'https://dlopp-docs.netlify.app',
   themeConfig: {
+    sidebar: 'auto',
+    lastUpdated: '最終更新日時',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
@@ -16,7 +18,11 @@ module.exports = {
         ]
       }
     ],
-    sidebar: 'auto',
+  },
+  locales: {
+    '/': {
+      lang: 'ja',
+    },
   },
   plugins: {
     '@vuepress/blog': {},
