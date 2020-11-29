@@ -1,6 +1,6 @@
 ---
 home: true
-description: '資料置き場的な'
+description: 'dloppの資料置き場兼ブログ'
 footer: © 2020 dlopp
 ---
 ## 🛠-鋭意作成中....
