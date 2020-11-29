@@ -1,7 +1,7 @@
 # dloppのdocument管理
 
 - 勉強会の資料作ったり、何か変わったことがあれば追記したりする用
-- GitHubに慣れる意味もかねて、意見や要望はissueでも対応します。
+- GitHubに慣れる意味もかねて、意見や要望はissueでも対応します.
 - プルリク歓迎
 
 ## 開発
@@ -15,7 +15,7 @@
 
 ### 1. Node.js + yarn のインストール
 #### Node.jsのインストール
-こちらから→https://nodejs.org インストールしてください。
+こちらから→https://nodejs.org インストールしてください.
 #### npmを確認
 ```bash
 # node.jsのバージョンを確認
@@ -24,7 +24,7 @@ node -v
 npm -v
 ```
 
-#### yarnをインストール（[yarn公式サイト](https://classic.yarnpkg.com/ja/docs/install#windows-stable)からでも良いです。その場合は、一行目を飛ばしてください。）
+#### yarnをインストール（[yarn公式サイト](https://classic.yarnpkg.com/ja/docs/install#windows-stable)からでも良いです。その場合は、一行目を飛ばしてください.）
 ```bash
 # npm 経由でyarnをインストール
 npm install -g yarn
@@ -55,10 +55,10 @@ yarn
 yarn dev
 ```
 http://localhost:8080/
-にアクセスすると、ローカルでプレビューしながら開発できます。
+にアクセスすると、ローカルでプレビューしながら開発できます.
 setting系をいじった時などは
 ```bash
 # ctrl + c してから
 yarn dev
 ```
-でリロードしてください。
+でリロードしてください.
