@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.3",
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
     "vuepress": "^1.7.1",
     "vuepress-plugin-seo": "^0.1.4"
   },
