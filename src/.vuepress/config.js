@@ -33,6 +33,13 @@ module.exports = {
       title: ($page, $site) => $page.title || $site.title,
       image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image) || 'https://i.gyazo.com/96879cdaad2e8524dce6252ec6270162.jpg',
       twitterCard: _ => 'summary',
-    }
+    },
+    '@vuepress/last-updated': {
+      transformer: (timestamp, lang) => {
+        const dayjs = require('dayjs')
+        dayjs.locale(lang)
+        return dayjs(timestamp).format('YYYY/MM/DD H時m分');
+      },
+    },
   },
 }
