@@ -8,14 +8,12 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about/' },
-      { text: 'Rule', link: '/rules/' },
       { text: 'Blog', link: '/blog/' },
       {
         text: 'More',
         items: [
           { text: 'Twitter', link: 'https://twitter.com/wucrea_dlopp'},
           { text: 'GitHub', link: 'https://github.com/dlopp'},
-          { text: 'HP', link: 'https://dlopp.github.io'}
         ]
       }
     ],
