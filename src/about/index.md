@@ -3,7 +3,7 @@ title: dloppについて
 description: 'dloppとは、エンジニア・デザイナーを中心とするクリエイティブな学生が集まるコミュニティです。'
 sidebar: false
 ---
-# dloppについて
+# dloppについてだお
 
 ## dloppとは
 dlopp(どろっぷ)とは、エンジニア・デザイナーを中心とするクリエイティブな学生が集まるコミュニティです。  
